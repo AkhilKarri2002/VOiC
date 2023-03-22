@@ -22,9 +22,12 @@
             padding-bottom: 25px;
         }
         input {
-            margin-left: 10px;
+            /* margin-left: 10px; */
+            border: thin solid rgba(0, 0, 255, 0.059);
         }
+        
         select {
+            color: #000000b6;
             margin-left: 10px;
             padding-left: 15px;
             width: 180px;
@@ -51,14 +54,18 @@
             border-radius: 15px;
             border:none;
             color: rgb(255, 255, 255);
-            padding: 5px 10px;
+            padding: 5px 20px;
             text-align: center;
             text-decoration: none;
             display: inline-block;
             font-size: 15px;
+            margin-bottom: 100px;
         }
         input[type="date"] {
+            margin-left: 0px;
             width: 100px;
+            color: #000000a7;
+            border: thin solid rgba(0, 0, 255, 0.059);
             -webkit-align-items: center;
             display: -webkit-inline-flex;
             font-family: monospace;
@@ -186,8 +193,8 @@
                         <input id="Child-stay" type="number" class="" placeholder="Enter no of days">
                     </div>
                     <div class="label">
-                        <input type="text" id="Parent1NameConfirm" readonly style="width: 15%; padding: none; border: none; outline: none; background: transparent; "> 
-                        <label for="Parent1-State" class="">Residence:</label>
+                        <label for="Parent1-State" class="">Residence of</label>
+                        <input type="text" id="Parent1NameConfirm" readonly style="width: 15%; padding: none; border: none; outline: none; background: transparent; margin-left: none !important;"> 
                         <select name="Select-State" id="Parent1-State" placeholder="Choose a State">
                             <option value="">Select state</option>
                             <option value="AL">Alabama</option>
@@ -419,8 +426,8 @@
                         <input id="CaseStay" type="number" class="" placeholder="Enter no of days">
                     </div>
                     <div class="label">
+                        <label for="Parent2-State" class="" style="padding-left: 0%;">Residence of</label>
                         <input type="text" id="Parent2NameConfirm" readonly style="width: 15%; padding: none; border: none; outline: none; background: transparent; "> 
-                        <label for="Parent2-State" class="" style="padding-left: 0%;">Residence:</label>
                         <select name="Select-State" id="Parent2-State">
                             <option value="">Select state</option>
                             <option value="AL">Alabama</option>
