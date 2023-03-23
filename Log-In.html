@@ -19,7 +19,6 @@
         <nav class="navbar navbar-expand-md  navbar-light">
             <div class="container">
                 <a href="VOiC.html" class="navbar-logo">
-                    <img class="d-inline-block align-top" src="logo.png" height="40" alt="">
                     <a href="VOiC.html" class="nav-link" style="padding-left: 20px;"> Virtual Office in Cloud</a>
                 </a>
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav"> <span class="navbar-toggler-icon"></span></button>
@@ -47,29 +46,24 @@
     </div>
     <div class="container" style="padding: 100px; margin-bottom: 100px;">
         <div class="row">    
-
-            <div class="col" style="  ">
-                <img src="proj.png" style="width: 60%; margin-top: 40px; ">
+            <div class="d-md-flex">
+                <div class="col-md-6">
+                    <img src="proj.png" style="width: 60%; margin-top: 40px; border-radius: 20px; ">
+                </div>
+                <div class="col-md-6" style=" background-color: #73db9038; padding: 20px; border-radius: 20px;">
+                    <form class="form" action="" method="post" autocomplete="off">
+                        <div class="form-list">
+                            <label for="email">Email : </label>
+                            <input type="text" class="form-control" name="email" id="email"> <br>
+                        </div>
+                        <div class="form-list">
+                            <label for="pwd">Password : </label>
+                            <input type="text" class="form-control" name="pwd" id="pwd"> <br>
+                        </div>   
+                        <button class="log" name="Log In">Log In</button> 
+                    </form>
+                </div>
             </div>
-            <div class="col" style=" background-color: #73db9038; padding: 20px; ">
-                <form class="form" action="" method="post" autocomplete="off">
-                
-                    <div class="form-list">
-                        <label for="email">Email : </label>
-                        <input type="text" class="form-control" name="email" id="email"> <br>
-                    </div>
-
-                    <div class="form-list">
-                        <label for="pwd">Password : </label>
-                        <input type="text" class="form-control" name="pwd" id="pwd"> <br>
-                    </div>
-                
-
-                    <button class="log" name="Log In">Log In</button> 
-
-                </form>
-            </div>
-
         </div>
 
     </div>
