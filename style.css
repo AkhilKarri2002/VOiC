@@ -40,7 +40,7 @@ form {
     transform: translate(-50, -50);
     text-align: center; 
     display: block;
-    background-color: #AA96DA;
+    background-color: #9880cf;
     border-radius: 15px;
     border:none;
     color: rgb(255, 255, 255);
@@ -58,7 +58,7 @@ form {
     transform: translate(-50, -50);
     text-align: center; 
     display: block;
-    background-color: #AA96DA;
+    background-color: #9980d3;
     border-radius: 15px;
     border:none;
     color: rgb(255, 255, 255);
@@ -79,9 +79,6 @@ input[type="date"] {
     overflow: hidden;
     padding: 0;
     -webkit-padding-start: 1px;
-}
-input [type="msg"]{
-    
 }
 h1{
     border-bottom: 6px double #AA96DA;
@@ -193,4 +190,31 @@ input [type="submit"]{
     font-size: large;
     text-transform: uppercase;
     letter-spacing: 0.1em;
+}
+.con-text{
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.heading{
+    padding-top: 0px;
+}
+
+main{
+    padding-top: 20px;
+}
+
+.editor{
+    color: #a30101;
+    background-color: #c9f0d4;
+    height: 900px; 
+}
+.entry{
+    display: block;
+    margin : 0 auto;
+    height: 40px;
+    width: 700px;
+    border-width: 0.1em;
+    border-radius: 10px;
+    border-color: #a0ced4;
 }
