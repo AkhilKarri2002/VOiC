@@ -34,7 +34,7 @@ form {
     padding: 50px;
 }
 .submit {
-    margin-top: 70px;
+    margin-top: 30px;
     position: absolute;
     left: 45%;
     transform: translate(-50, -50);
@@ -49,7 +49,7 @@ form {
     text-decoration: none;
     display: inline-block;
     font-size: 17px;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
 .log{
     margin-top: 40px;
@@ -67,7 +67,7 @@ form {
     text-decoration: none;
     display: inline-block;
     font-size: 17px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 input[type="date"] {
     width: 170px;
@@ -183,4 +183,11 @@ input [type="submit"]{
     padding-bottom: 100px;
     margin-bottom: 100px;
     border: 6px double #000000;
+}
+.img-text{
+    margin-right: 100px;
+    padding: 20px;
+    font-size: large;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
 }
