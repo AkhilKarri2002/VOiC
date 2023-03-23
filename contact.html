@@ -11,11 +11,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="logo.png">
-    <title>Log-in</title>
+    <title>Contact</title>
 </head>
 <body>
-    <!-- navbar -->
-    <header>
+     <!-- navbar -->
+     <header>
         <nav class="navbar navbar-expand-md  navbar-light">
             <div class="container">
                 <a href="VOiC.html" class="navbar-logo">
@@ -28,7 +28,7 @@
                             <a href="#" class="nav-link"> About </a>
                         </li>
                         <li class="nav-item active">
-                            <a href="contact.html" class="nav-link"> Contact </a>
+                            <a href="Log-In.html" class="nav-link"> Log-In </a>
                         </li>
                         <li class="nav-item active">
                             <a href="Sign-Up.html" class="nav-link">Sign-Up</a>
@@ -40,9 +40,8 @@
         </nav>
     </header>
     <!-- Navbar-End -->
-
     <div class="container">
-        <h1>Log-In</h1>
+        <h1>Contact Us</h1>
     </div>
     <div class="container" style="padding: 100px; margin-bottom: 100px;">
         <div class="row">    
@@ -51,21 +50,47 @@
                     <img src="proj.png" style="width: 60%; margin-top: 40px; border-radius: 20px; ">
                 </div>
                 <div class="col-md-6" style=" background-color: #73db9038; padding: 20px; border-radius: 20px;">
+
+                    
+
                     <form class="form" action="" method="post" autocomplete="off">
+                        <div class="img-text" style="padding-top: 0 !important;">
+                            <p class="font-weight-normal">Send us a Message here:</p>
+                        </div>
+                        <div class="form-list">
+                            <label for="name">Name : </label>
+                            <input type="text" class="form-control" name="name" id="name" placeholder="Jane Doe"> <br>
+                        </div>
+                        <div class="form-list">
+                            <label for="Phone">Phone No : </label>
+                            <input type="text" class="form-control" name="Phone" id="Phone" placeholder="+ (208) 123 - 4567"> <br>
+                        </div>
                         <div class="form-list">
                             <label for="email">Email : </label>
                             <input type="text" class="form-control" name="email" id="email" placeholder="someone@email.com"> <br>
                         </div>
                         <div class="form-list">
-                            <label for="pwd">Password : </label>
-                            <input type="text" class="form-control" name="pwd" id="pwd" placeholder="************"> <br>
+                            <label for="msg">Message : </label>
+                            <textarea placeholder="You Guys did a Great Job"  class="form-control" name="msg" id="msg"  style="height:150px" >  </textarea>
                         </div>   
-                        <button class="log" name="Log In">Log In</button> 
+                        <button class="log" name="send">Send</button> 
                     </form>
                 </div>
             </div>
         </div>
 
     </div>
+
+
+
+
+
+
+
+
+
+
+
+    
 </body>
 </html>
