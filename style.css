@@ -205,8 +205,11 @@ main{
 }
 
 .editor{
-    color: #a30101;
+
     background-color: #73db9038;
+    background-color: #ffffff;
+    border: #000000;
+    border-radius: 10px;
     height: 900px; 
 }
 .entry{
