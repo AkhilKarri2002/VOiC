@@ -1,2 +1,2 @@
 # VOiC
-A project by Riley Kouns and Akhil Karri
+A project by Akhil Karri
